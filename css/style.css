@@ -1,0 +1,80 @@
+/** COMMON CSS STARTS HERE*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+
+
+    font-family: popins;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+nav .row{
+    align-items: center;
+}
+
+.container{
+    max-width:1240;
+    margin: auto;
+}
+
+/** COMMON CSS STARTS HERE*/
+
+/* *NAVBAR STARTS HERE */
+
+nav .logo{
+  width: 30%;
+  padding-left: 40px;
+}
+
+nav .menu{
+    width: 45%;
+}
+nav .quickmenu{
+    width: 25%;
+}
+
+
+nav .menu ul{
+    justify-content: center;
+}
+
+nav .menu ul li a{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+color: #000;
+padding:38px 37.5px ;
+display: inline-block;
+}
+
+nav .quickmenu ul{
+    justify-content: end;
+}
+
+nav .quickmenu ul li a{
+    font-size: 25px;
+    color: black;
+    padding: 36px 22.5px;
+    display: inline-block;
+
+
+
+}
+/* *NAVBAR ENDS HERE */
